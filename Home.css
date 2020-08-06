@@ -1,0 +1,106 @@
+body{
+background-image:url('cloud.jpg');
+background-repeat:no-repeat;
+background-position:left-bottom;
+background-size:500px 500px;
+}
+
+ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+backgroung-color:black;
+text-align:center;
+}
+
+li{
+float:left;
+padding:10px;
+margin:10px 10px 10px 10px ;
+font-size:20px;
+font-style:arial;
+}
+
+li a{
+color:white;
+text-align:center;
+display:block;
+padding:10px;
+text-decoration:none;
+}
+
+li a:hover{
+color:blue;
+background-color:white;
+border-radius:50px;
+}
+
+
+h1{
+margin:50px 50px;
+color:blue;
+font-size:20px;
+font-style:arial;
+text-align:center;
+text-shadow:20px;
+}
+
+h3{
+color:red;
+font-size:30px;
+font-style:arial;
+text-align:center;
+text-shadow:10px;
+}
+
+table
+{
+border:1;
+font-family:arial;
+border-padding:10px 10px;
+width:500px;
+border-collapse:20px 20px;
+text-align:center;
+}
+
+th{
+width:500px;
+color:white;
+font-family:arial;
+font-size:20px;
+padding:10px 10px 10px 10px;
+background-color:blue;
+text-align:center;
+}
+
+tr:nth-child(odd)
+{
+background-color:green;
+}
+
+tr:nth-child(even)
+{
+background-color:lightgreen;
+}
+
+td{
+padding:10px 10px;
+}
+
+.container{
+text-align:center;
+padding:20px;
+}
+
+.footer{
+position:fixed;
+left:0;
+bottom:0;
+width:1400px;
+text-align:center;
+background-color:green;
+color:black;
+}
+
+
+
